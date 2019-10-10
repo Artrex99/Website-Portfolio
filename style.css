@@ -1,8 +1,16 @@
+//GLOBAL RULES
 html {
   background-image: url("/media/brz1.jpg");
-  background-color: #424b78;
+  background-color: #424B78;
   font-size:12px;
   font-family: 'Montserrat', sans-serif;
+}
+//Header
+.header{
+  background:url(media/brz1.jpg) no-repeat center center;
+  background-size: cover;
+  height: 1000px;
+  text-align:center;
 }
 h1 {
   font-size:18px;
