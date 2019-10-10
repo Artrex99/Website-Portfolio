@@ -5,12 +5,24 @@ html {
   font-size:12px;
   font-family: 'Montserrat', sans-serif;
 }
+/*
+The Sobkowicz Syntax
+H1 = BIG TITLE
+H2 = BIG HEADLINE
+H3 = SMALLER HEADLINE (NAV-BAR)
+H4 = NORMAL TEXT
+*/
 //Header
 .header{
   background:url(media/brz1.jpg) no-repeat center center;
   background-size: cover;
   height: 1000px;
   text-align:center;
+}
+.container{
+  margin: 0 auto;
+  max-width: 940px;
+  padding: 0 10px;
 }
 h1 {
   font-size:18px;
