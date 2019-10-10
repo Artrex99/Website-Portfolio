@@ -1,6 +1,8 @@
 //GLOBAL RULES
-html {
+html, body {
   background-color: #424B78;
+  margin: 0;
+  padding: 0;
   font-size:12px;
   font-family: 'Montserrat', sans-serif;
 }
@@ -21,6 +23,22 @@ H4 = NORMAL TEXT
   margin: 0 auto;
   max-width: 940px;
   padding: 0 10px;
+}
+.header .container {
+  position: relative;
+  top: 200px;
+}
+.btn {
+  color: #ffffff;
+  background: #000;
+  padding: 10px 40px;
+  text-decoration: none;
+  transition: background .5s;
+}
+.btn:hover, .nav ul li:hover {
+  background: #117bff;
+  cursor: pointer; 
+  transition: background .5s;  
 }
 h1 {
   font-size:18px;
