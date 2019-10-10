@@ -16,7 +16,7 @@ H4 = NORMAL TEXT
 .header{
   background:url(../media/brz1.jpg) no-repeat center center;
   background-size: cover;
-  height: 1000px;
+  height: 400;
   text-align:center;
 }
 .container{
@@ -27,6 +27,11 @@ H4 = NORMAL TEXT
 .header .container {
   position: relative;
   top: 200px;
+}
+@media (min-width:850px) {
+  .header h1 {
+    font-size: 120px;
+  }
 }
 .btn {
   color: #ffffff;
